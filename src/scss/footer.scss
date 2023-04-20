@@ -1,0 +1,148 @@
+.footer {
+  // .footer__wrapper
+  &__wrapper {
+    padding-top: 220px;
+    @media screen and 
+    (max-width:480px){
+      display: none;
+    }
+  }
+  // .footer__top
+  &__top {
+  }
+  // .footer__top-wrapper
+  &__top-wrapper {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+  }
+  // .footer__info
+  &__info {
+    
+  }
+  // .footer__logo
+  &__logo {
+    display: flex;
+    gap: 7px;
+    
+  }
+  // .footer__logo-img
+  &__logo-img {
+    position: relative;
+    left: 37px;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0px;
+      left:-37px;
+      z-index: 1;
+      display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url('../img/header/header-logo.svg');
+    background-position: left top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    }
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #18216D;
+    text-decoration: none;
+  }
+  // .footer__text
+  &__text {
+    font-family: 'Inter';
+font-size: 16px;
+line-height: 26px;
+color: #18216D;
+opacity: 0.9;
+width: 248px;
+padding-top: 25px;
+  }
+  // .footer__apps
+  &__apps {
+    display: flex;
+    gap:12px;
+    padding-top: 30px;
+  }
+  // .footer__apps-link
+  &__apps-link {
+  
+  }
+  // .footer__apps-img
+  &__apps-img {
+    
+  }
+  // .footer__items
+  &__items {
+  }
+  // .footer__items-wrapper
+  &__items-wrapper {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+}
+  // .footer__item
+  &__item:nth-child(4) ul {
+    font-family: 'Inter';
+font-size: 16px;
+line-height: 40px;
+color: #18216D;
+opacity: 0.8;
+
+  }
+  // .footer__item-title
+  &__item-title {
+    font-family: 'Inter';
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+color: #18216D;
+  }
+  // .footer__item-nav
+  &__item-nav {
+    padding-top: 30px;
+  }
+  // .footer__item-list
+  &__item-list {
+    padding-left: 0px;
+   
+  }
+  // .footer__item-item
+  &__item-item {
+    list-style-type: none;
+  }
+  // .footer__item-link
+  &__item-link {
+    font-family: 'Inter';
+font-size: 16px;
+line-height: 40px;
+color: #18216D;
+opacity: 0.9;
+text-decoration: none;
+&:hover {
+  text-decoration: underline;
+}
+  }
+  // .footer__copyright
+  &__copyright {
+    font-family: 'Inter';
+font-size: 16px;
+line-height: 24px;
+color: #18216D;
+opacity: 0.8;
+padding-top: 90px;
+text-align: center;
+padding-bottom: 57px;
+  }
+  }
+  .container {
+  }
+  
