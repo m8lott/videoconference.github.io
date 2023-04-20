@@ -1,0 +1,63 @@
+.banner__wrapper {
+  padding-top: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+  .banner__wrapper {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+.banner__content {
+  max-width: 498px;
+}
+.banner__content-title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  color: #18216D;
+  padding-bottom: 16px;
+}
+@media screen and (max-width: 991px) {
+  .banner__content-title {
+    font-size: 30px;
+    line-height: 42px;
+  }
+}
+.banner__content-text {
+  font-family: "Inter";
+  font-size: 17px;
+  line-height: 28px;
+  color: #18216D;
+  padding-bottom: 34px;
+}
+.banner__content-link {
+  text-decoration: none;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: #18216D;
+  width: 180px;
+  padding: 22px 22px;
+  background-color: #00ECD0;
+  border-radius: 6px;
+  box-shadow: 0 0 40px 40px #00ECD0 inset, 0 0 0 0 #00ECD0;
+  transition: all 150ms ease-in-out;
+}
+.banner__content-link:hover {
+  box-shadow: 0 0 10px 0 #00ECD0 inset, 0 0 10px 4px #00ECD0;
+}
+@media screen and (max-width: 768px) {
+  .banner__picture {
+    padding-top: 41px;
+  }
+}
+.banner__img {
+  max-width: 686px;
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=banner.css.map */

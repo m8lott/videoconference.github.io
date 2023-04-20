@@ -1,0 +1,82 @@
+.collaborations__wrapper {
+  padding-top: 122px;
+}
+.collaborations__content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 991px) {
+  .collaborations__content-wrapper {
+    flex-direction: column;
+  }
+}
+.collaborations__content-title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+  color: #18216D;
+  width: 100%;
+  max-width: 520px;
+}
+.collaborations__content-info {
+  display: flex;
+  align-items: center;
+  gap: 93px;
+}
+@media screen and (max-width: 768px) {
+  .collaborations__content-info {
+    padding-top: 30px;
+  }
+}
+.collaborations__content-downloads {
+  max-width: 137px;
+}
+.collaborations__content-downloads-title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1px;
+  color: #18216D;
+}
+.collaborations__content-downloads-text {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 28px;
+  color: #18216D;
+}
+.collaborations__content-raiting-title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1px;
+  color: #18216D;
+}
+.collaborations__content-raiting-text {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 28px;
+  color: #18216D;
+}
+.collaborations .collaborations__partners {
+  padding-top: 49px;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 480px) {
+  .collaborations .collaborations__partners img:nth-child(5) {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .collaborations .collaborations__partners img:nth-child(6) {
+    display: none;
+  }
+}/*# sourceMappingURL=collaborations.css.map */

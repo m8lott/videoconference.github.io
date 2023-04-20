@@ -1,0 +1,108 @@
+.footer__wrapper {
+  padding-top: 220px;
+}
+@media screen and (max-width: 480px) {
+  .footer__wrapper {
+    display: none;
+  }
+}
+.footer__top-wrapper {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.footer__logo {
+  display: flex;
+  gap: 7px;
+}
+.footer__logo-img {
+  position: relative;
+  left: 37px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #18216D;
+  text-decoration: none;
+}
+.footer__logo-img:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -37px;
+  z-index: 1;
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/header/header-logo.svg");
+  background-position: left top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.footer__text {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 26px;
+  color: #18216D;
+  opacity: 0.9;
+  width: 248px;
+  padding-top: 25px;
+}
+.footer__apps {
+  display: flex;
+  gap: 12px;
+  padding-top: 30px;
+}
+.footer__items-wrapper {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 30px;
+}
+.footer__item:nth-child(4) ul {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 40px;
+  color: #18216D;
+  opacity: 0.8;
+}
+.footer__item-title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #18216D;
+}
+.footer__item-nav {
+  padding-top: 30px;
+}
+.footer__item-list {
+  padding-left: 0px;
+}
+.footer__item-item {
+  list-style-type: none;
+}
+.footer__item-link {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 40px;
+  color: #18216D;
+  opacity: 0.9;
+  text-decoration: none;
+}
+.footer__item-link:hover {
+  text-decoration: underline;
+}
+.footer__copyright {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 24px;
+  color: #18216D;
+  opacity: 0.8;
+  padding-top: 90px;
+  text-align: center;
+  padding-bottom: 57px;
+}/*# sourceMappingURL=footer.css.map */
