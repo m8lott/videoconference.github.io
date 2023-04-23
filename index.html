@@ -456,7 +456,8 @@ platform considering all the requirements
 document.querySelector('.header__burger').addEventListener('click', () => {
   document.querySelector('.header__burger').classList.toggle('active');
   if (document.querySelector('.header__burger').classList.contains('active')) {
-    document.querySelector('body').style.overflow = 'hidden'
+    document.querySelector('body').style.overflow = 'hidden';
+    document.querySelector('.header__burger').style.overflow = 'hidden';
   }
   document.querySelector('.header__nav').classList.toggle('open');
   document.querySelector('.header__links').classList.toggle('open');
