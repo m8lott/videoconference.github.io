@@ -80,6 +80,10 @@ box-shadow: 0 0 40px 40px #00ECD0 inset, 0 0 0 0 #00ECD0;
   max-width: 686px;
   width: 100%;
   height: auto;
+  @media screen and 
+  (max-width:480px){
+   width: 350px;
+  }
   }
   }
   .container {
