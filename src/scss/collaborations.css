@@ -21,6 +21,23 @@
   width: 100%;
   max-width: 520px;
 }
+@media screen and (max-width: 991px) {
+  .collaborations__content-title {
+    font-size: 30px;
+    line-height: 46px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .collaborations__content-title {
+    padding-left: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .collaborations__content-title {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
 .collaborations__content-info {
   display: flex;
   align-items: center;

@@ -12,6 +12,12 @@
 }
 .banner__content {
   max-width: 498px;
+  padding-left: 80px;
+}
+@media screen and (max-width: 768px) {
+  .banner__content {
+    padding-left: 0px;
+  }
 }
 .banner__content-title {
   font-family: "Inter";
@@ -54,6 +60,7 @@
 @media screen and (max-width: 768px) {
   .banner__picture {
     padding-top: 41px;
+    padding-right: 100px;
   }
 }
 .banner__img {
