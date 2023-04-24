@@ -93,6 +93,8 @@ color: #18216D;
   }
   // .collaborations__content-raiting-stars
   &__content-raiting-stars {
+    display: flex;
+    flex-wrap: nowrap;
   }
   // .collaborations__content-raiting-text
   &__content-raiting-text {
